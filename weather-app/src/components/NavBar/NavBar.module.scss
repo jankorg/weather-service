@@ -1,0 +1,25 @@
+.navbar {
+    overflow: hidden;
+    background-color: var(--color-gray1);
+    position: relative;
+    top: 0;
+    a {
+        float: left;
+        display: block;
+        color: var(--color-white);
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        .right {
+            float: right;
+          }
+      }
+      a:hover {
+        background-color:var(--color-gray2);
+        color: black;
+      }
+      a.active {
+        background-color:var(--color-gray1);
+        color: var(--color-white);
+      }
+}

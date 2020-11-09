@@ -1,0 +1,39 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background: var(--color-black);;
+    color: var(--color-white);
+    h1 {
+        font-size: 40px;
+      }
+  }
+ 
+  
+.navbar {
+    overflow: hidden;
+    background-color: var(--color-black);
+    position: sticky;
+    top: 0;
+    a{
+        float: left;
+        display: block;
+        color: var(--color-white);;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        .right {
+            float: right;
+          }
+      }
+      a:hover {
+        background-color: var(--color-white);
+        color: var(--color-black);
+      }
+  }
+  
+  .navbar 
+  
+  .navbar a.active {
+    background-color: var(--color-gray1);
+    color: var(--color-white);;
+  }
