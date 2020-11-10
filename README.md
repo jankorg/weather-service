@@ -4,21 +4,21 @@ Weather Service Code Challenge
 # Install
 
 Run "npm install" command
-
+Run "npm install --prefix weather-app" command
 
 # build 
-npn build and npn build-client
+Run "npn build" 
+Run "npn build-client"
 
 # Run server
 
-Run npm start
+Run "npm start"
 
 # browse
 
-got your browser and navigate to "http://localhost:3000/"
+ browse "http://localhost:3002/"
 
-###
 
-# Developed by}
+# Developed by
 
 Juan Camilo Rodriguez, juan.rodriguez@hazclic.com.
